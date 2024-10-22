@@ -1,58 +1,74 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
-    max-width: 960px;
-    margin: auto;
-}
-h1 {
-    font-size: 3em;
-    letter-spacing: .6em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-h2 {
-    font-size: 1.5em;
-    padding-bottom: 1em;
-}
-
-h3 {
-    font-size: 1em;
-    padding-bottom: 1em;
-}
-
-main { 
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 3em;
-}
-header {
-    text-align: center;
-    margin: auto 2em;
-}
-
-section {
-    margin: auto 1em 4em 2em;
-}
-
-i {
-    margin-right: .5em;
-}
-
-p {
-    margin: .2em auto
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 hr {
-    border: none;
-    background-color: lightgray;
-    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 3px;  /* Thickness to make it bold */
+    background-color: black; /* Line color */
 }
 
-h1, h2, h3 {
-    font-weight: 100;
-    margin-bottom: 0;
+/* Add a page border */
+body {
+    margin: 0;
+    padding: 10px; /* Space between content and the border */
+    background-color: black;
+    border: 10px solid black; /* Black border around the page */
+    min-height: 100vh; /* Ensure the page takes full height */
 }
-#mainLeft {
-    border-right: 1px solid lightgray;
+
+/* Center the content container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main section */
+main {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+li{
+    margin-left: 20px;
 }
